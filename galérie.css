@@ -1,0 +1,60 @@
+:root{
+    --main-color:#8e44ad;
+    --black:#222;
+    --white:#fff;
+    --light-black:#777;
+    --light-white:#fff9;
+    --dark-bg:rgba(0,0,0,.7);
+    --light-bg:#eee;
+    --border:.1rem solid var(--black);
+    --box-shadow:0.5rem 1rem rgba(0,0,0,.1);
+    --text-shadow:0 1.5rem 3rem rgba(0,0,0,.3);
+
+}
+
+
+.header{
+    position: sticky;
+    top: 0; left: 0; right: 0;
+    z-index: 1000 !important;
+    background: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: var(--box-shadow);
+}
+section .header .logo {
+    font-size: 2.5rem;
+    width: 30%;
+    vertical-align: middle;
+    margin-top: 8px;
+}
+section .header .logo img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.header .navbar a{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: var(--black);
+}
+.header .navbar a:hover {
+    color: var(--main-color);
+} 
+.bani {
+    height: 300Px;
+    margin-top: 70px;
+    color:rgb(68, 216, 0) ;
+    text-align: center;
+    font-size:34px;
+    padding: 34px;
+    background: url(Image\ \(3\).jpg);
+   
+ 
+}
